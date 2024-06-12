@@ -8,6 +8,12 @@ function App() {
         <h1>Dictionary App</h1>{" "}
       </header>
       <Dictionary />
+      <footer>
+        Coded by{" "}
+        <a href="https://github.com/RaquelD-B" target="blank">
+          Raquel Díaz
+        </a>
+      </footer>
     </div>
   );
 }
