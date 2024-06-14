@@ -7,7 +7,9 @@ function App() {
       <header className="App-header">
         <h1>Dictionary App</h1>{" "}
       </header>
-      <Dictionary />
+      <section>
+        <Dictionary defaultKeyword="dictionary" />
+      </section>
       <footer>
         Coded by{" "}
         <a href="https://github.com/RaquelD-B" target="blank">
