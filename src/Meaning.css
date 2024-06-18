@@ -1,0 +1,10 @@
+h3 {
+  color: rgba(8, 90, 8, 0.8);
+  font-size: 25px;
+  margin-bottom: 0;
+}
+.example {
+  font-weight: bold;
+  line-height: 1.5;
+  opacity: 0.7;
+}

@@ -36,11 +36,16 @@ export default function Dictionary(props) {
         <form onSubmit={handleSubmit}>
           <input
             type="search"
-            placeholder="Type a word..."
+            placeholder="Search for a word..."
             onChange={handleKeyWord}
+            id="search-box"
           />
+          <input type="submit" value="🔍" id="search-button" />
         </form>
-        <Results results={results} />
+        <div className="hint">Example:"Sunset, yoga, table..."</div>
+        <section>
+          <Results results={results} />
+        </section>
       </div>
     );
   } else {
