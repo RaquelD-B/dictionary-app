@@ -55,11 +55,12 @@ export default function Dictionary(props) {
             />
             <input type="submit" value="🔍" id="search-button" />
           </form>
+
           <div className="hint">Example:"Sunset, yoga, table..."</div>
         </section>
-        <section>
-          <Results results={results} />
-        </section>
+
+        <Results results={results} />
+
         <section>
           <Picture picture={picture} />
         </section>
