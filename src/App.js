@@ -12,9 +12,13 @@ function App() {
       <Dictionary defaultKeyword="sunrise" />
 
       <footer>
-        Coded by{" "}
+        This project was coded by{" "}
         <a href="https://github.com/RaquelD-B" target="blank">
           Raquel Díaz
+        </a>{" "}
+        and is open-sourced on{" "}
+        <a href="https://github.com/RaquelD-B/dictionary-app" target="blank">
+          Github
         </a>
       </footer>
     </div>

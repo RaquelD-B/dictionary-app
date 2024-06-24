@@ -10,13 +10,12 @@ form {
   border-radius: 6px 0 0 6px;
   border: none;
   padding: 16px 8px;
-
-  font-size: 18px;
+  font-size: 16px;
   width: 80%;
 }
 
 #search-button {
-  background-color: #d8e8d8;
+  background: #9fd3c7;
   border: none;
   border-radius: 0 6px 6px 0;
   padding: 16px 8px;
@@ -26,6 +25,6 @@ form {
 
 .hint {
   text-align: left;
-  margin: 0px 30px;
+  margin: 0px 35px;
   opacity: 0.7;
 }
